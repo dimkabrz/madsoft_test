@@ -1,0 +1,37 @@
+.radiorow{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    position: relative;
+}
+.hidden{
+    display: none;
+}
+.visible{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+button{
+    background: #C03838FF;
+    border-radius: 3px;
+    padding: 5px 20px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.checkbox_group{
+    display: flex;
+    flex-direction: column;
+}
+.done_question{
+    background: black;
+}
